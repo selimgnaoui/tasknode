@@ -1,0 +1,10 @@
+
+var mongoose = require('mongoose');
+
+var RestaurantSchema = mongoose.Schema({
+    name: String,
+    long: Number,
+    latiude: Number
+})
+
+module.exports=RestaurantSchema
